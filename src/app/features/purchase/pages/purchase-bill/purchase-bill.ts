@@ -44,7 +44,7 @@ export class PurchaseBillPage {
 
   async ngOnInit() {
     const fetchRequest = new FetchRequest(
-      "http://enahnzer-assessment-api.runasp.net/api/locations",
+      "https://enhanzer-api-chh7bgfkbcf9deff.southindia-01.azurewebsites.net/api/locations",
       {},
       'GET'
     );

@@ -15,7 +15,7 @@ export class LoginPage {
   protected readonly submitted = signal(false);
   protected readonly statusMessage = signal('');
   protected readonly loading = signal(false);
-  protected readonly url = 'http://enahnzer-assessment-api.runasp.net/api/auth/login';
+  protected readonly url = 'https://enhanzer-api-chh7bgfkbcf9deff.southindia-01.azurewebsites.net/api/auth/login';
   protected authService = inject(AuthService);
   protected router = inject(Router);
   protected readonly loginForm = new FormGroup({
