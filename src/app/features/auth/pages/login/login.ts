@@ -15,7 +15,7 @@ export class LoginPage {
   protected readonly submitted = signal(false);
   protected readonly statusMessage = signal('');
   protected readonly loading = signal(false);
-  protected readonly url = 'http://localhost:5068/api/auth/login';
+  protected readonly url = 'http://enahnzer-assessment-api.runasp.net/api/auth/login';
   protected authService = inject(AuthService);
   protected router = inject(Router);
   protected readonly loginForm = new FormGroup({
